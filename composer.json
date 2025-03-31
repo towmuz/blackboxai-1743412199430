@@ -1,0 +1,16 @@
+{
+    "name": "school-timetable-system",
+    "description": "School Timetable Management System",
+    "type": "project",
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
